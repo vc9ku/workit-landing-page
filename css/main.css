@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+:root {
+    --purple: #24053E;
+    --green: #44FFA1;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.nav p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--green);
+    text-underline-offset: 8px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    background-color: var(--purple);
+}
+
+.container h1 {
+    font-family: "Fraunces", serif;
+    color: white;
+    line-height: 80px;
+    font-weight: 600;
+    font-size: 80px;
+    width: 635px;
+    margin-top: 56px;
+}
+
+.container a {
+    width: 98px;
+    background-color: var(--green);
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    padding: 12px 32px;
+    width: 162px;
+}
+
+.purple {
+    background-color: var(--purple);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--purple);
+    height: 774px;
+}
+
