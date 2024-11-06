@@ -34,6 +34,7 @@ body {
     margin-left: auto;
     color: white;
     background-color: var(--purple);
+    padding-top: 32px;
 }
 
 .container h1 {
@@ -43,7 +44,8 @@ body {
     font-weight: 600;
     font-size: 80px;
     width: 635px;
-    margin-top: 56px;
+    margin: 0;
+    padding: 56px;
 }
 
 .container a {
@@ -56,6 +58,7 @@ body {
     font-family: "Manrope", sans-serif;
     padding: 12px 32px;
     width: 162px;
+    margin-bottom: 420px;
 }
 
 .purple {
@@ -69,6 +72,13 @@ body {
     align-items: center;
     text-align: center;
     background-color: var(--purple);
-    height: 774px;
+    height: 100%;
+    margin: 0;
 }
 
+.phone {
+    position: absolute;
+    bottom: 12px;
+    right: 600px;
+    width: 700px;
+}
