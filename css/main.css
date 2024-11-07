@@ -58,11 +58,16 @@ body {
     font-family: "Manrope", sans-serif;
     padding: 12px 32px;
     width: 162px;
-    margin-bottom: 374px;
+    margin-bottom: 330px;
 }
 
 .purple {
     background-color: var(--purple);
+}
+
+.ornamental {
+    background-color: var(--purple);
+    width: 100%;
 }
 
 .container {
@@ -98,9 +103,12 @@ body {
 .features {
     display: flex;
     padding-top: 200px;
-    align-items: center;
     background-color: #FCF8FF;
     color: #24053E;
+    justify-content: center;
+    width: 100%;
+    padding-right: 160px;
+    padding-left: 160px;
 }
 
 
@@ -123,5 +131,53 @@ body {
 
 
 .first-features {
-    padding-right: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin-right: 32px;
+}
+
+.second-features {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    margin-right: 32px;
+}
+
+.third-features {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+}
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-content {
+    display: flex;
+    position: relative;
+}
+
+.cta-container {
+    display: flex;
+    background-color: var(--purple);
+    flex-direction: column;
+
+}
+
+.profile-picture {
+    position: absolute;
+}
+
+.second-oval {
+    position: absolute;
 }
