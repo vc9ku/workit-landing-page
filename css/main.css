@@ -17,12 +17,19 @@ body {
     min-height: 100vh;
 }
 
-.nav p {
+.nav a {
     font-family: "Manrope", sans-serif;
     font-weight: 700;
     text-decoration: underline;
     text-decoration-color: var(--green);
     text-underline-offset: 8px;
+    color: white;
+}
+
+.nav a:hover {
+    transition-duration: 0.4s;
+    color: var(--green);
+    text-underline-offset: 12px;
 }
 
 .nav {
@@ -58,7 +65,15 @@ body {
     font-family: "Manrope", sans-serif;
     padding: 12px 32px;
     width: 162px;
-    margin-bottom: 330px;
+    margin-bottom: 300px;
+}
+
+.container a:hover {
+    transition-duration: 0.4s;
+    color: var(--green);
+    background-color: var(--purple);
+    width: 162px;
+    border: solid 1px;
 }
 
 .purple {
@@ -102,7 +117,7 @@ body {
 
 .features {
     display: flex;
-    padding-top: 200px;
+    padding-top: 150px;
     background-color: #FCF8FF;
     color: #24053E;
     justify-content: center;
@@ -110,13 +125,16 @@ body {
     padding-right: 160px;
     padding-left: 160px;
     align-items: center;
+    margin-bottom: 216px;
+    margin-top: 50px;
 }
 
 
 .features span {
     border: solid 1px;
-    border-radius: 100%;
+    border-radius: 99px;
     padding: 12px;
+    width: 56px;
 }
 
 .features h2 {
@@ -128,51 +146,80 @@ body {
 .features p {
     font-weight: 400;
     font-size: 18px;
+    line-height: 32px;
 }
 
 
+.number {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 56px;
+    height: 56px;
+    font-family: "Fraunces", serif;
+    border: solid 1px;
+    border-radius: 99px;
+    margin: 0;
+}
+
 .first-features {
+    flex-direction: column;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    width: 30%;
+    width: 33%;
+    color: var(--purple);
     margin-right: 32px;
 }
 
 .second-features {
+    flex-direction: column;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    width: 30%;
+    width: 33%;
+    color: var(--purple);
     margin-right: 32px;
 }
 
 .third-features {
+    flex-direction: column;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    width: 30%;
+    width: 33%;
+    color: var(--purple);
+    margin-right: 32px;
 }
 
 .cta-section {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .cta-content {
     display: flex;
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .cta-container {
     display: flex;
     background-color: var(--purple);
     flex-direction: column;
-
+    width: 75%;
+    padding: 64px;
+    z-index: 1;
+    margin-top: 168px;
 }
 
 .profile-picture {
@@ -181,4 +228,79 @@ body {
 
 .second-oval {
     position: absolute;
+    top: 350px;
+    right: 0px;
 }
+
+.third-oval {
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    z-index: 2;
+}
+
+
+.cta-div {
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    width: 100%;
+}
+
+.cta-container h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 66px;
+    color: white;
+    margin: 0;
+    margin-bottom: 32px;
+}
+
+.cta-container p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.cta-container a:hover {
+    transition-duration: 0.4s;
+    color: var(--green);
+    background-color: var(--purple);
+    width: 210px;
+    border: solid 1px;
+}
+
+.cta-container a {
+    background-color: var(--green);
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif;
+    padding: 12px 32px;
+    width: 207px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 112px;
+    margin-bottom: 160px;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 116px;
+}
+
+.footer-logo {
+    margin-bottom: 76px;
+}
+
